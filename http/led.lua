@@ -5,10 +5,10 @@ return function (connection, req, args)
 <html lang="en">
 <head>
    <meta charset="utf-8">
-   <title>NodeMCU LED controll</title>
+   <title>NodeMCU LED control</title>
 </head>
 <body>
-   <h1>NodeMCU LED controll</h1>
+   <h1>NodeMCU LED control</h1>
 ]===])
 
    if req.method == "GET" then
