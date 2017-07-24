@@ -10,3 +10,6 @@ dofile("httpserver-wifi.lc")
 
 -- Start nodemcu-httpsertver
 dofile("httpserver-init.lc")
+
+-- Start LED blinker
+dofile("led.lua")
