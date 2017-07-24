@@ -20,9 +20,9 @@ return function (port)
          local function log(connection, msg, optionalMsg)
             local port, ip = connection:getpeer()
             if(optionalMsg == nil) then
-               print(ip .. ":" .. port, msg)
+               print(ip .. ":" .. port, collectgarbage('count')..'kB:'..node.heap(), msg)
             else
-               print(ip .. ":" .. port, msg, optionalMsg)
+               print(ip .. ":" .. port, collectgarbage('count')..'kB:'..node.heap(), msg, optionalMsg)
             end
          end
 
